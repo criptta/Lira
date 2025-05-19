@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: black;
+    color: yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor{
+    margin: 10px auto;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 15px;
+}
+.tarjeta{
+    .0
+    border: 1px solid purple;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px grey;
+}
+.tarjeta:hover{
+transform: scale(1.01);
+background-color: rgb(89, 89, 213);
+color: blue;
+}
+@keyframes colores {
+    0%{background-color: lightgrey;}
+    25%{background-color: aqua; font-family: Arial, Helvetica, sans-serif;}
+    50%{background-color: lightcoral; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+}
+
+
